@@ -13,9 +13,9 @@ const Portfolio = ({ Projects }) => {
         Portfolio
       </h1>
       <h1 className="text-center text-2xl font-semi text-white my-10">Here's my project</h1>
-      <div className="flex justify-center flex-wrap gap-14" data-aos="fade-up" data-aos-once="true">
+      <div className="flex justify-center flex-wrap gap-10" data-aos="fade-up" data-aos-once="true">
         {Projects.map((project) => (
-          <div key={project.title} className="max-w-lg md:max-w-xl text-white md:mx-5 my-6 md:my-10 bg-black py-7 px-5 rounded-lg shadow-3xl shadow-white">
+          <div key={project.title} className="max-w-lg md:max-w-xl text-white md:mx-5 my-6 md:my-7 bg-black py-6 px-5 rounded-lg shadow-3xl shadow-white">
             <div className="rounded-lg overflow-hidden relative">
               <a href={project.link} target="_blank">
                 <img src={`./images/${project.src}`} alt="" />
@@ -30,10 +30,16 @@ const Portfolio = ({ Projects }) => {
                 </div>
               </div>
             </div>
-            <a href={project.link} target="_blank" className="font-bold text-xl md:text-2xl block my-3 hover:text-purple-800 w-fit">
-              {project.title}
-            </a>
+            <div className="font-bold text-xl md:text-2xl block my-3 text-purple-100 w-fit">{project.title}</div>
             <p className="tracking-wide text-lg md:text-lg">{project.desc}</p>
+            <div className="flex gap-4 my-2 cursor-pointer">
+              <a href={project.link} target="_blank" className="rounded-md bg-purple-800 hover:bg-purple-900 px-4 py-2 font-semibold text-lg">
+                View
+              </a>
+              <a href={project.code} target="_blank" className="rounded-md bg-slate-800 hover:bg-slate-900 px-4 py-2 font-semibold text-lg">
+                Code
+              </a>
+            </div>
           </div>
         ))}
       </div>

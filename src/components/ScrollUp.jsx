@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export const ScrollUp = () => {
+const ScrollUp = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {

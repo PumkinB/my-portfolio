@@ -31,6 +31,7 @@ const Projects = [
   {
     src: "project-bootstrap.png",
     link: "https://pumkinb.github.io/FoodieXpress/",
+    code: "https://github.com/PumkinB/FoodieXpress",
     tools: ["Bootstrap"],
     title: "Landing Page",
     desc: "The FoodieXpress website is a Landing Page that uses Bootstrap for a responsive and modern appearance.",
@@ -38,6 +39,7 @@ const Projects = [
   {
     src: "weather-app.png",
     link: "https://pumkinb.github.io/Weather-App/",
+    code: "https://github.com/PumkinB/Weather-App",
     tools: ["HTML5", "CSS3", "javaScript"],
     title: "Weather App",
     desc: "This Weather App is very useful for viewing the weather conditions of a city/region, and this Weather App uses HTML, CSS, and Javascript.",
@@ -45,6 +47,7 @@ const Projects = [
   {
     src: "e-commerce.png",
     link: "https://e-commerce-oliver.vercel.app/",
+    code: "https://github.com/PumkinB/e-commerce",
     tools: ["reactJS", "javaScript"],
     title: "E-Commerce App",
     desc: "E-Commerce website is an online platform where goods and services are traded between buyers and sellers over the internet.  E-Commerce site can help you reach customers and showcase your offerings effectively.",

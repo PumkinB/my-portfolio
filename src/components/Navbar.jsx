@@ -9,10 +9,8 @@ const Navbar = ({ Navigation }) => {
 
       <ul className="flex gap-12 px-20 text-lg text-center">
         {Navigation.map((Link) => (
-          <li key={Link.name} className="group">
-            <a href={Link.link} className=" hover:text-secondary">
-              {Link.name}
-            </a>
+          <li key={Link.name} className="group hover:text-secondary">
+            <a href={Link.link}>{Link.name}</a>
             <div className="group-hover:border border-secondary border-y-2 rounded-lg group-hover:border-y-2 w-0 group-hover:w-full transform duration-300 ease-in-out"></div>
           </li>
         ))}
