@@ -52,6 +52,14 @@ const Projects = [
     title: "E-Commerce App",
     desc: "E-Commerce website is an online platform where goods and services are traded between buyers and sellers over the internet.  E-Commerce site can help you reach customers and showcase your offerings effectively.",
   },
+  {
+    src: "todolist.png",
+    link: "https://todolist-one-silk.vercel.app/",
+    code: "https://github.com/PumkinB/todolist",
+    tools: ["reactJS", "javaScript"],
+    title: "To do list App",
+    desc: "I created to-do list app that helps users manage tasks efficiently. The app allows adding, editing, and marking tasks as complete. Its clean interface and intuitive design enhance productivity.",
+  },
 ];
 
 function App() {

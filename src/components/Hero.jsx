@@ -39,7 +39,9 @@ const Hero = ({ SocialLogo }) => {
         </button>
       </div>
       <div className="w-full md:w-1/2 px-12 md:px-20 py-10 md:py-36 flex justify-center" data-aos="fade-left" data-aos-easing="ease-in-sine">
-        <img src="./images/man.png" alt="Oliver" />
+        <div id="profile-animation" className="overflow-hidden">
+          <img src="./images/man.png" alt="Oliver" className="bg-cover bg-center" />
+        </div>
       </div>
     </div>
   );
