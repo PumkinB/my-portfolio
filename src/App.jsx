@@ -60,6 +60,14 @@ const Projects = [
     title: "To do list App",
     desc: "I created to-do list app that helps users manage tasks efficiently. The app allows adding, editing, and marking tasks as complete. Its clean interface and intuitive design enhance productivity.",
   },
+  {
+    src: "animation-slider.png",
+    link: "https://pumkinb.github.io/Animation-slider/",
+    code: "https://github.com/PumkinB/Animation-slider",
+    tools: ["HTML5", "CSS3", "javaScript"],
+    title: "Animation Slider",
+    desc: "I’ve created an Animation Slider, which was quite challenging due to its complexity. Using a blend of HTML, CSS, and JavaScript, I designed and built a dynamic slider that adds visual appeal to web content.",
+  },
 ];
 
 function App() {
