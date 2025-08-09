@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
-import { useTypewriter, Cursor } from "react-simple-typewriter";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React, { useEffect } from 'react';
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Hero = ({ SocialLogo }) => {
   const [text] = useTypewriter({
-    words: ["Student.", "Developer.", "Front-End."],
+    words: ['Student.', 'Developer.', 'Front-End.'],
     loop: {},
     typeSpeed: 120,
   });
@@ -16,7 +16,11 @@ const Hero = ({ SocialLogo }) => {
 
   return (
     <div className="min-h-screen text-white bg-primary flex flex-col md:flex-row" id="home">
-      <div className="w-full md:w-1/2 px-12 md:px-20 py-5 md:py-56" data-aos="fade-right" data-aos-easing="ease-in-sine">
+      <div
+        className="w-full md:w-1/2 px-12 md:px-20 py-5 md:py-56"
+        data-aos="fade-right"
+        data-aos-easing="ease-in-sine"
+      >
         <h1 className="text-4xl my-4 text-secondary">
           Hello<span className="text-white">, I'm Oliver Chin.</span>
         </h1>
@@ -38,9 +42,13 @@ const Hero = ({ SocialLogo }) => {
           Hire me
         </button>
       </div>
-      <div className="w-full md:w-1/2 px-12 md:px-20 py-10 md:py-36 flex justify-center" data-aos="fade-left" data-aos-easing="ease-in-sine">
+      <div
+        className="w-full md:w-1/2 px-12 md:px-20 py-10 md:py-36 flex justify-center"
+        data-aos="fade-left"
+        data-aos-easing="ease-in-sine"
+      >
         <div id="profile-animation" className="overflow-hidden">
-          <img src="./images/man.png" alt="Oliver" className="bg-cover bg-center" />
+          <img src="./images/oliver.png" alt="Oliver" className="bg-cover bg-center" />
         </div>
       </div>
     </div>
